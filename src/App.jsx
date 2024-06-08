@@ -11,9 +11,10 @@ import Footer from "./scomponents/Footer";
 
 function App() {
   return (
-    <div className="w-full h-full">
+    <div>
       {/* <Navbar /> */}
       <Navbar/>
+      {/* <p>nbvcn gnbnvnbm</p> */}
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About/>} />

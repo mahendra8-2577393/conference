@@ -9,9 +9,8 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
   font-family: "Poppins", sans-serif;
-  max-height: 100vh;
   background-color: #fff;
-  background-color: rgb(178, 178, 216);
 }
